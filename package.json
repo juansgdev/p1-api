@@ -1,0 +1,12 @@
+{
+  "name": "p1-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Player ONE OS API that connects the custom P1-RetroArch Emulator with the UniPlay - Game Center Front-End for games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juansgdev",
+  "license": "ISC"
+}
