@@ -1,13 +1,7 @@
 import * as fs from 'fs';
 
 export const readFile = (path) => {
-    try {
-        return fs.readFileSync(path);
-    } catch (error) {
-        console.error(error);
-    }
-
-    //return fs.readFileSync(path).toString();
+    return fs.readFileSync(path).toString();
 };
 
 export const readJSON = (path) => {
